@@ -16,7 +16,7 @@ def load_mnist():
     for i in range(trX.shape[0]):
         a = trX[i,:,:,0].astype(np.uint8)
         img = Image.fromarray(a, mode='L')
-        img.save('data/mnist2/tr{}'.format(i))
+        img.save('data/mnist2/tr{}.png'.format(i))
 
     # fd = open(os.path.join(data_dir ,'train-labels-idx1-ubyte'))
     # loaded = np.fromfile(file=fd ,dtype=np.uint8)
