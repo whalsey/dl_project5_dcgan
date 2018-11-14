@@ -1,9 +1,9 @@
 # Data
-data
-samples
+#data
+#samples
 *.zip
 logs
-test*
+#test*
 
 web/js/gen_layers.js
 
